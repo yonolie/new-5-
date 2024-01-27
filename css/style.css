@@ -168,7 +168,7 @@ transition: all 100ms ease;
     
 }
 
-.productions section iframe {
+.productions div iframe {
 width: 100%; 
 height: 400px;
 
@@ -210,7 +210,7 @@ width: 100%;
     text-align: center;
 
 }
-.productions section:nth-of-type(4) {
+.productions article div {
     color: white;
     width: 50%;
     border-radius: 1em;
@@ -218,25 +218,22 @@ width: 100%;
     margin-right: 6em;
     margin: auto;
     background-color:orange ;
-    font-size: 150%
-}
-
-.productions section:nth-of-type(4) article img {
-    justify-content: right;
-    
-
-    
-
-}
-.productions section:nth-of-type(4) article{
+    font-size: 150%;
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
-    
-}
-.productions article {
     text-align: center;
     
+
 }
+
+
+
+
+.productions img:nth-of-type(2) {
+    width: 100%;
+}
+
 
 /* ----------------about us  -----------------*/
 .about p {
