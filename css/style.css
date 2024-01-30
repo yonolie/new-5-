@@ -6,18 +6,18 @@ body {
 
 a:hover {
     color: orange;
-    }
-    
-    p {
-        color: white
-    }
+}
+
+p {
+    color: white
+}
 
 /* ----------------header sttijlen -----------------*/
 nav {
- background-color: black;
- display: flex;
- justify-content: center;
- align-items: center;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -27,6 +27,7 @@ header nav ul {
     display: flex;
     text-align: center;
 }
+
 header nav ul li {
     margin-left: 2em;
     margin-right: 2em;
@@ -35,7 +36,7 @@ header nav ul li {
 nav a {
     color: white;
     text-decoration: none;
-    font-size: 1.4em; 
+    font-size: 1.4em;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
@@ -45,17 +46,18 @@ nav a {
 .homeb img {
     width: 100%;
 }
- .homeb a {
-text-decoration: none;
-position: absolute;
-top: 490px;
-left: 85%;
-color: white;
-border: solid;
-padding: 0.3em;
-font-size: 1.5em;
-padding-left: 2em;
-padding-right: 2em;
+
+.homeb a {
+    text-decoration: none;
+    position: absolute;
+    top: 490px;
+    left: 85%;
+    color: white;
+    border: solid;
+    padding: 0.3em;
+    font-size: 1.5em;
+    padding-left: 2em;
+    padding-right: 2em;
 
 }
 
@@ -64,13 +66,14 @@ padding-right: 2em;
     top: 6em;
     left: 75%;
     color: white;
-    font-size: 2.5rem 
-
+    font-size: 2.5rem
 }
+
 .homeb h2 {
     color: white;
     text-align: center;
 }
+
 .homeb h3 {
     text-align: center;
     color: white;
@@ -90,6 +93,7 @@ padding-right: 2em;
 iframe {
     border: none;
 }
+
 .homeb section:nth-of-type(3) {
     color: white;
     text-align: center;
@@ -120,9 +124,10 @@ iframe {
 
 /* ----------------inspiratie -----------------*/
 h1 {
-color: orange;
-text-align: center;
+    color: orange;
+    text-align: center;
 }
+
 .inspo {
     color: white;
 }
@@ -131,24 +136,25 @@ text-align: center;
     text-align: center;
     font-size: 2em;
 }
-    
+
 
 .inspo section:nth-of-type(odd) {
     display: flex;
     flex-direction: row-reverse;
 }
+
 .inspo section:nth-of-type(even) {
     display: flex;
-    flex-direction:row
+    flex-direction: row;
 }
 
-.inspo img{
-transition: all 100ms ease;
+.inspo img {
+    transition: all 100ms ease;
 }
 
 .inspo img:hover {
     width: 300%;
-  
+
 }
 
 
@@ -161,16 +167,15 @@ transition: all 100ms ease;
 
 
 /* ----------------productions -----------------*/
- 
+
 .productions div {
 
-    display: flex;  
-    
+    display: flex;
 }
 
 .productions div iframe {
-width: 100%; 
-height: 400px;
+    width: 100%;
+    height: 400px;
 
 
 }
@@ -191,8 +196,9 @@ height: 400px;
     width: 330px;
     height: auto;
 }
+
 .productions img:last-child {
-width: 100%;
+    width: 100%;
 }
 
 .productions h1 {
@@ -205,11 +211,13 @@ width: 100%;
     text-align: center;
     font-size: 2rem;
 }
+
 .productions h3 {
     color: white;
     text-align: center;
 
 }
+
 .productions article div {
     color: white;
     width: 50%;
@@ -217,13 +225,13 @@ width: 100%;
     margin-left: 6em;
     margin-right: 6em;
     margin: auto;
-    background-color:orange ;
+    background-color: orange;
     font-size: 150%;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     text-align: center;
-    
+    margin-bottom: 1em;
 }
 
 .productions section:nth-of-type(2) {
@@ -234,12 +242,6 @@ width: 100%;
     color: white;
 }
 
-.productions section div :nth-of-type(2) {
-    flex-direction: row;
-}
-
-
-
 .productions img:nth-of-type(2) {
     width: 100%;
 }
@@ -247,29 +249,36 @@ width: 100%;
 
 /* ----------------about us  -----------------*/
 .about p {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
+    width: 90%;
 }
 
-.about div {
-
- display: flex; 
- flex-direction: column;
- height: 100vh;
- align-items: center;
-
+.about h2 {
+    color: white;
+}
+.about h3 {
+    color: white;
 }
 
-.about img {
-    
-    width: 30vw;
-    height: 100vh;
-    padding-left: 2em;
-}
-.about {
+.about section:nth-of-type(1) {
     display: flex;
-    width: 100vw;
-    height: 100vh;
+    flex-direction: row-reverse;
+    justify-content: space-between;
 }
+
+.about section img:nth-of-type(1) {
+    width: 60vw;
+    height: 60vh;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -279,11 +288,10 @@ width: 100%;
 /* ----------------footer stijlen  -----------------*/
 footer p {
     text-align: center;
-  }
+}
 
-  /* ---------------- bronnen  -----------------*/
-  .bron h2 {
+/* ---------------- bronnen  -----------------*/
+.bron h2 {
     color: white;
-    
-  }
 
+}
